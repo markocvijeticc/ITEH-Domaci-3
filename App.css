@@ -1,0 +1,267 @@
+/* .navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #402502;
+  border-bottom: 2px solid rgb(175, 175, 175);
+  min-height: 40px;
+  padding: 0 25px;
+  font-size: large;
+  filter: opacity(0.8);
+} */
+
+/* .nav-link {
+  padding: 5px 10px;
+  background-color: #b06c00;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+} */
+
+.divider {
+  width: 10px;
+}
+
+.cart-container {
+  display: flex;
+  align-items: center;
+}
+
+.cart-link {
+  color: #30302f;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.cart-num {
+  background-color: #0d0d0c39;
+  color: white;
+  border-radius: 50%;
+  padding: 3px 5px;
+  font-weight: bold;
+}
+
+.cart-link:hover {
+  color: #242423;
+}
+
+.cart-num:hover {
+  background-color: #313030;
+}
+
+.left-links {
+  display: flex;
+  align-items: center;
+}
+
+.right-links {
+  display: flex;
+  align-items: center;
+}
+
+.all-products {
+  display: flex;
+  margin: 20px;
+  position: relative;
+}
+
+.card {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(211, 211, 211);
+  border-radius: 10px;
+  max-width: 200px;
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  margin: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cart-container {
+  margin: 20px;
+}
+
+.card-cart {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(211, 211, 211);
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.card-img-left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.home-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./components/images/zmaj.jpg");
+  background-size: cover;
+  filter: opacity(0.8);
+}
+
+.content {
+  text-align: center;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #a87932; /* Smeđa boja */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #7e5a1f; /* Tamnija smeđa boja prilikom hover-a */
+}
+
+.home-link {
+  margin-left: auto;
+  padding: 5px 10px;
+  background-color: #b06c00;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.home-link:hover {
+  background-color: #b06c00;
+}
+
+/* styles.css */
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-list {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-right: 20px;
+}
+
+.payment-form {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 100%; /* This will make the input fields take up the full width of their container */
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #b06c00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* styles.css */
+.shared-background {
+  background-image: url("./components/images/zmaj.jpg");
+  background-size: cover;
+  filter: opacity(0.8);
+  position: relative; /* Postavite roditeljski div kao relativno pozicioniran */
+}
+
+.all-products {
+  position: relative; /* Postavite roditeljski div kao relativno pozicioniran */
+}
+
+.background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./components/images/zmaj.jpg");
+  background-size: cover;
+  filter: opacity(0.8);
+  z-index: -1;
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+}
+
+styles.css */ body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("./components/images/zmaj.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
